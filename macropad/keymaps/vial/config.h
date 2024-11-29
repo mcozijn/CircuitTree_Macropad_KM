@@ -1,0 +1,9 @@
+#pragma once
+#define VIAL_KEYBOARD_UID {0xB7, 0xC4, 0x92, 0xA8, 0x44, 0x0E, 0xD7, 0x84}
+#define I2C1_SDA_PIN GP14
+#define I2C1_SCL_PIN GP15
+#define BOOTMAGIC_ROW 0
+#define BOOTMAGIC_COLUMN 2
+#define ENCODER_BUTTON_PIN GP18
+#define MATRIX_ROWS 4
+#define MATRIX_COLS 4

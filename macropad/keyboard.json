@@ -1,0 +1,59 @@
+{
+    "keyboard_name": "Macropad",
+    "manufacturer": "CircuitTree",
+    "url": "",
+    "maintainer": "Karl Max",
+    "usb": {
+       "vid": "0x6374",
+       "pid": "0x0002",
+       "device_version": "0.0.1"
+    },
+    "features": {
+        "bootmagic": true,
+        "command": false,
+        "console": false,
+        "encoder": true,
+        "extrakey": true,
+        "mousekey": false,
+        "nkro": false,
+        "rgb_matrix": false
+    },
+    "bootloader": "rp2040",
+    "matrix_pins": {
+      "cols": ["GP3", "GP4", "GP5", "GP18"],
+      "rows": ["GP6", "GP7", "GP8", "GP9"]
+    },
+    "diode_direction": "COL2ROW",
+    "ghost": true,
+    "processor": "RP2040",
+    "encoder": {
+      "rotary": [
+        {"pin_a": "GP17", "pin_b": "GP16"}
+      ]
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {"label": "EC", "matrix": [0, 3], "x": 3.5, "y": 0},
+
+                {"label": "K01", "matrix": [0, 2], "x": 0, "y": 3},
+                {"label": "K02", "matrix": [0, 1], "x": 1, "y": 3},
+                {"label": "K03", "matrix": [0, 0], "x": 2, "y": 3},
+                
+                {"label": "K04", "matrix": [1, 2], "x": 0, "y": 4},
+                {"label": "K05", "matrix": [1, 1], "x": 1, "y": 4},
+                {"label": "K06", "matrix": [1, 0], "x": 2, "y": 4},
+
+                {"label": "K07", "matrix": [2, 2], "x": 0, "y": 5},
+                {"label": "K08", "matrix": [2, 1], "x": 1, "y": 5},
+                {"label": "K09", "matrix": [2, 0], "x": 2, "y": 5},
+
+                {"label": "K10", "matrix": [3, 2], "x": 0, "y": 6},
+                {"label": "K11", "matrix": [3, 1], "x": 1, "y": 6},
+                {"label": "K12", "matrix": [3, 0], "x": 2, "y": 6}
+
+                
+            ]
+        }
+    }
+  }

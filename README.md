@@ -7,7 +7,7 @@ _NOTE: currently, the OLED has no functionality, but this will be added soon_:tm
 _NOTE 2: Even though it should natively support macOS, I have not tried since I don't have a USB-C to Micro-USB cable to test_
 
 
-## Remapping the macropad without booting or changing code
+## Remapping the macropad without flashing or changing code
 ![image](https://github.com/user-attachments/assets/91c929ac-ed96-4220-a844-052a2b9db8d7)
 * Step 1: Download the _macropad_vial.uf2_ file
 * Step 2: Flash the board by dragging the file onto it in boodloader mode.

@@ -1,7 +1,7 @@
 {
     "keyboard_name": "Macropad",
     "manufacturer": "CircuitTree",
-    "url": "",
+    "url": "https://github.com/mcozijn/CircuitTree_Macropad_KM/tree/main",
     "maintainer": "Karl Max",
     "usb": {
        "vid": "0x6374",

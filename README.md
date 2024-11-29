@@ -21,5 +21,5 @@ _NOTE 2: Even though it should natively support macOS, I have not tried since I 
 * Use up to 4 different layers
 
 ## QMK & Vial
-Visit the [QMK website](https://qmk.fm/) or the [Vial website](https://get.vial.today/manual/) for their stellar documentation on how to use the files provided.
+Visit the [QMK website](https://docs.qmk.fm/) or the [Vial website](https://get.vial.today/manual/) for their stellar documentation on how to use the files provided.
 
